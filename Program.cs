@@ -21,3 +21,5 @@ string[] NewArray(int size, string[] oldArray)
     }
     return result;
 }
+string[] newArr = NewArray(count, arr);
+Console.Write(string.Join("; ", newArr));
